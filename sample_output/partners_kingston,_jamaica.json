@@ -17,7 +17,7 @@
     "concierge_mentioned": false,
     "pms_detected": [],
     "channel_managers": [],
-    "contact_email": null,
+    "contact_email": "info@benchmarkpropertiesja.com",
     "companies_house_verified": true,
     "company_status": "liquidation",
     "sic_codes": [
@@ -119,20 +119,20 @@
     "snippet": "Google Places API Record. Rating: 4. Phone: +1 876-906-2538.",
     "estimated_property_count": null,
     "geographic_markets": [
-      "St. Elizabeth",
-      "St. Catherine",
-      "Westmoreland",
-      "Manchester",
-      "Hanover",
-      "St. Thomas",
-      "Trelawny",
-      "St. Andrew",
       "Portland",
-      "Clarendon",
-      "Kingston",
       "St. James",
+      "Hanover",
+      "Trelawny",
+      "Kingston & St. Andrew",
+      "St. Mary",
+      "St. Elizabeth",
+      "Clarendon",
+      "St. Thomas",
+      "Westmoreland",
       "St. Ann",
-      "St. Mary"
+      "St. Catherine",
+      "Ocho Rios",
+      "Manchester"
     ],
     "luxury_keywords_found": [
       "villa",
@@ -154,7 +154,7 @@
     ],
     "director_name": "EGENTI, Alexander Chiukwudi",
     "incorporation_year": 2024,
-    "is_property_manager": false,
+    "is_property_manager": true,
     "luxury_tier": "luxury",
     "groq_extraction_success": true,
     "data_sources": [
@@ -163,5 +163,35 @@
       "groq_llm"
     ],
     "enrichment_success": true
+  },
+  {
+    "company_name": "Stroll Property Services",
+    "domain": "strollpropertiesjamaica.com",
+    "source_url": "http://strollpropertiesjamaica.com/",
+    "location_searched": "Kingston, Jamaica",
+    "snippet": "Google Places API Record. Rating: 4.8. Phone: +1 876-969-6066.",
+    "estimated_property_count": null,
+    "geographic_markets": [],
+    "luxury_keywords_found": [],
+    "luxury_keyword_count": 0,
+    "high_adr_signals": false,
+    "concierge_mentioned": false,
+    "pms_detected": [],
+    "channel_managers": [],
+    "contact_email": null,
+    "companies_house_verified": true,
+    "company_status": "dissolved",
+    "sic_codes": [
+      "68320"
+    ],
+    "director_name": "SHARIF, Ilyas Kalyle",
+    "incorporation_year": 2016,
+    "is_property_manager": null,
+    "luxury_tier": null,
+    "groq_extraction_success": false,
+    "data_sources": [
+      "duckduckgo_search"
+    ],
+    "enrichment_success": false
   }
 ]

@@ -243,14 +243,29 @@ def scrape_website(url: str, char_limit: int = 6000) -> str:
 
         soup = BeautifulSoup(resp.text, "html.parser")
 
-        # Remove non-content tags
-        for tag in soup(["script", "style", "nav", "footer", "head", "meta"]):
+        # Extract valuable metadata (emails, iframes, scripts, links) before decomposing
+        # as get_text() will strip URLs which are critical for PMS detection
+        extracted_urls = []
+        for tag in soup(["a", "iframe", "script", "link"]):
+            link = tag.get("href") or tag.get("src")
+            if link:
+                extracted_urls.append(link)
+
+        # Remove non-content tags (WARNING: Do NOT remove nav/footer as they contain contact info!)
+        for tag in soup(["script", "style", "head", "meta", "noscript", "svg"]):
             tag.decompose()
 
         text = soup.get_text(separator=" ", strip=True)
+        
+        # Append unique extracted URLs so downstream regex can detect PMS domains and mailto links
+        unique_urls = list(set(extracted_urls))
+        urls_text = " ".join(unique_urls)
+        
+        full_scraped = f"{text} \n\n[HIDDEN_URLS] {urls_text}"
+        
         # Collapse whitespace
-        text = " ".join(text.split())
-        return text[:char_limit]
+        full_scraped = " ".join(full_scraped.split())
+        return full_scraped[:char_limit]
 
     except Exception as e:
         logging.debug(f"  Could not scrape {url}: {e}")
