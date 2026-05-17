@@ -1,0 +1,537 @@
+[
+  {
+    "company_name": "Knight Frank Estate Agents",
+    "domain": "knightfrank.co.uk",
+    "source_url": "https://www.knightfrank.co.uk/",
+    "location_searched": "London",
+    "snippet": "Discover residential and luxury property across London and the UK with Knight Frank, trusted estate agents since 1896.We specialise in selling and letting a wide range of homes, from modern London apartments to historical country houses, farms, and international pieds-à-terre.",
+    "estimated_property_count": null,
+    "geographic_markets": [
+      "London",
+      "Monaco"
+    ],
+    "luxury_keywords_found": [
+      "luxury",
+      "bespoke",
+      "villa",
+      "estate",
+      "tailored"
+    ],
+    "luxury_keyword_count": 5,
+    "high_adr_signals": false,
+    "concierge_mentioned": false,
+    "pms_detected": [],
+    "channel_managers": [],
+    "contact_email": null,
+    "data_sources": [
+      "duckduckgo_search",
+      "website_scrape"
+    ],
+    "enrichment_success": true
+  },
+  {
+    "company_name": "Airbnb",
+    "domain": "airbnb.co.uk",
+    "source_url": "https://www.airbnb.co.uk/",
+    "location_searched": "London",
+    "snippet": "Bristol Holiday rentals . Eastbourne Cabin rentals . Windermere Cottage rentals . Bangkok Villa rentals . Leicester House rentals .",
+    "estimated_property_count": null,
+    "geographic_markets": [],
+    "luxury_keywords_found": [
+      "villa"
+    ],
+    "luxury_keyword_count": 1,
+    "high_adr_signals": false,
+    "concierge_mentioned": false,
+    "pms_detected": [],
+    "channel_managers": [
+      "Airbnb"
+    ],
+    "contact_email": null,
+    "data_sources": [
+      "duckduckgo_search",
+      "website_scrape"
+    ],
+    "enrichment_success": true
+  },
+  {
+    "company_name": "BARNES, the leading player in international luxury real estate",
+    "domain": "barnes-international.com",
+    "source_url": "https://www.barnes-international.com/en/",
+    "location_searched": "London",
+    "snippet": "BARNES establishes its luxury real estate agencies in the most prestigious locations of these destinations. Our integrated network of agencies is able to offer a selection of high-end properties that meet our clients' criteria.",
+    "estimated_property_count": null,
+    "geographic_markets": [
+      "Ibiza"
+    ],
+    "luxury_keywords_found": [
+      "luxury",
+      "high-end",
+      "concierge",
+      "villa",
+      "estate",
+      "tailored"
+    ],
+    "luxury_keyword_count": 6,
+    "high_adr_signals": false,
+    "concierge_mentioned": true,
+    "pms_detected": [],
+    "channel_managers": [],
+    "contact_email": null,
+    "data_sources": [
+      "duckduckgo_search",
+      "website_scrape"
+    ],
+    "enrichment_success": true
+  },
+  {
+    "company_name": "International Homes for Sale and Apartment Rentals",
+    "domain": "christiesrealestate.com",
+    "source_url": "https://www.christiesrealestate.com/",
+    "location_searched": "London",
+    "snippet": "Christie’s International Real Estate provides tailored solutions and exceptional results for the world’s most discerning luxury real estate clientele.",
+    "estimated_property_count": null,
+    "geographic_markets": [],
+    "luxury_keywords_found": [
+      "luxury",
+      "estate",
+      "tailored"
+    ],
+    "luxury_keyword_count": 3,
+    "high_adr_signals": false,
+    "concierge_mentioned": false,
+    "pms_detected": [],
+    "channel_managers": [],
+    "contact_email": null,
+    "data_sources": [
+      "duckduckgo_search"
+    ],
+    "enrichment_success": false
+  },
+  {
+    "company_name": "Apartments For Rent in United States",
+    "domain": "zillow.com",
+    "source_url": "https://www.zillow.com/us/apartments/",
+    "location_searched": "London",
+    "snippet": "Management tasks. List your property for rent .Tools for rental managers . Check your property's rental value. Screen renters with applications. Create and manage leases. Collect rent . Learn about renting out your property.",
+    "estimated_property_count": null,
+    "geographic_markets": [],
+    "luxury_keywords_found": [],
+    "luxury_keyword_count": 0,
+    "high_adr_signals": false,
+    "concierge_mentioned": false,
+    "pms_detected": [],
+    "channel_managers": [],
+    "contact_email": null,
+    "data_sources": [
+      "duckduckgo_search"
+    ],
+    "enrichment_success": false
+  },
+  {
+    "company_name": "Luxury Hotels",
+    "domain": "rosewoodhotels.com",
+    "source_url": "https://www.rosewoodhotels.com/",
+    "location_searched": "London",
+    "snippet": "Indulge in the world of luxury with Rosewood, a global collection of hotels & resorts designed for discerning travelers seeking unparalleled elegance. Rentals . Residences for Sale. Explore the collection of authentic homes, crafted with design and distinctive Rosewood service.",
+    "estimated_property_count": null,
+    "geographic_markets": [
+      "London"
+    ],
+    "luxury_keywords_found": [
+      "luxury",
+      "curated",
+      "exclusive",
+      "villa",
+      "private",
+      "tailored",
+      "signature"
+    ],
+    "luxury_keyword_count": 7,
+    "high_adr_signals": false,
+    "concierge_mentioned": true,
+    "pms_detected": [],
+    "channel_managers": [],
+    "contact_email": null,
+    "data_sources": [
+      "duckduckgo_search",
+      "website_scrape"
+    ],
+    "enrichment_success": true
+  },
+  {
+    "company_name": "Short",
+    "domain": "thefreedictionary.com",
+    "source_url": "https://www.thefreedictionary.com/short",
+    "location_searched": "London",
+    "snippet": "1. Abruptly; quickly: stop short. 2. In a rude or curt manner. 3. At a point before a given boundary, limit, or goal: a missile that landed short of the target. 4. At a disadvantage: We were caught short by the …",
+    "estimated_property_count": null,
+    "geographic_markets": [],
+    "luxury_keywords_found": [],
+    "luxury_keyword_count": 0,
+    "high_adr_signals": false,
+    "concierge_mentioned": false,
+    "pms_detected": [],
+    "channel_managers": [],
+    "contact_email": null,
+    "data_sources": [
+      "duckduckgo_search",
+      "website_scrape"
+    ],
+    "enrichment_success": true
+  },
+  {
+    "company_name": "Short Definition & Meaning",
+    "domain": "yourdictionary.com",
+    "source_url": "https://www.yourdictionary.com/short",
+    "location_searched": "London",
+    "snippet": "Short definition: Having little length; not long.",
+    "estimated_property_count": null,
+    "geographic_markets": [],
+    "luxury_keywords_found": [
+      "exclusive"
+    ],
+    "luxury_keyword_count": 1,
+    "high_adr_signals": false,
+    "concierge_mentioned": false,
+    "pms_detected": [],
+    "channel_managers": [],
+    "contact_email": null,
+    "data_sources": [
+      "duckduckgo_search",
+      "website_scrape"
+    ],
+    "enrichment_success": true
+  },
+  {
+    "company_name": "short",
+    "domain": "en.wiktionary.org",
+    "source_url": "https://en.wiktionary.org/wiki/short",
+    "location_searched": "London",
+    "snippet": "May 8, 2026 · Short is often used in the positive vertical dimension and used as is shallow in the negative vertical dimension; in the horizontal dimension, narrow is more commonly used.",
+    "estimated_property_count": null,
+    "geographic_markets": [],
+    "luxury_keywords_found": [],
+    "luxury_keyword_count": 0,
+    "high_adr_signals": false,
+    "concierge_mentioned": false,
+    "pms_detected": [],
+    "channel_managers": [],
+    "contact_email": null,
+    "data_sources": [
+      "duckduckgo_search",
+      "website_scrape"
+    ],
+    "enrichment_success": true
+  },
+  {
+    "company_name": "short",
+    "domain": "wordnik.com",
+    "source_url": "https://www.wordnik.com/words/short",
+    "location_searched": "London",
+    "snippet": "If you’ve locked the screen, sliding the keyboard out automatically unlocks, and if the keyboard is out for a short time don’t know what a ’short time’ is yet, the screen will re-lock when the keyboard is stowed.",
+    "estimated_property_count": null,
+    "geographic_markets": [],
+    "luxury_keywords_found": [
+      "estate"
+    ],
+    "luxury_keyword_count": 1,
+    "high_adr_signals": false,
+    "concierge_mentioned": false,
+    "pms_detected": [],
+    "channel_managers": [],
+    "contact_email": null,
+    "data_sources": [
+      "duckduckgo_search",
+      "website_scrape"
+    ],
+    "enrichment_success": true
+  },
+  {
+    "company_name": "Villa Holiday Specialist",
+    "domain": "villaplus.com",
+    "source_url": "https://www.villaplus.com/",
+    "location_searched": "London",
+    "snippet": "Book with peace of mind. All villas are hand-picked and inspected by our travel experts. Find a space to escape and enjoy your own villa with a private pool & the overseas team are on hand to help.",
+    "estimated_property_count": null,
+    "geographic_markets": [],
+    "luxury_keywords_found": [
+      "villa",
+      "private"
+    ],
+    "luxury_keyword_count": 2,
+    "high_adr_signals": false,
+    "concierge_mentioned": false,
+    "pms_detected": [],
+    "channel_managers": [],
+    "contact_email": null,
+    "data_sources": [
+      "duckduckgo_search"
+    ],
+    "enrichment_success": false
+  },
+  {
+    "company_name": "Villa Eterna Holiday Rental",
+    "domain": "marbslifestyle.com",
+    "source_url": "https://marbslifestyle.com/rentals/villa/villa-eterna-holiday-rental-beachfront/",
+    "location_searched": "London",
+    "snippet": "Beachside holiday rental villa in Costabella with sea views, 4 bedrooms, 4 bathrooms. Perfect for your Marbella escape. Check availability today.",
+    "estimated_property_count": null,
+    "geographic_markets": [
+      "Marbella"
+    ],
+    "luxury_keywords_found": [
+      "luxury",
+      "concierge",
+      "villa",
+      "private",
+      "handpicked"
+    ],
+    "luxury_keyword_count": 5,
+    "high_adr_signals": false,
+    "concierge_mentioned": true,
+    "pms_detected": [],
+    "channel_managers": [],
+    "contact_email": null,
+    "data_sources": [
+      "duckduckgo_search",
+      "website_scrape"
+    ],
+    "enrichment_success": true
+  },
+  {
+    "company_name": "Holiday Villa Johor Bahru Concierge",
+    "domain": "tripadvisor.in",
+    "source_url": "https://www.tripadvisor.in/Hotel_Feature-g298278-d10062232-zft9656-Holiday_Villa_Johor_Bahru.html",
+    "location_searched": "London",
+    "snippet": "Warmest greetings from Holiday Villa Johor Bahru City Centre! Thank you for taking the time to share your recent experience at our hotel. We are so glad you found our hotel a good place to stay, and that you enjoyed the facilities and food at our restaurant.",
+    "estimated_property_count": null,
+    "geographic_markets": [],
+    "luxury_keywords_found": [
+      "villa"
+    ],
+    "luxury_keyword_count": 1,
+    "high_adr_signals": false,
+    "concierge_mentioned": false,
+    "pms_detected": [],
+    "channel_managers": [],
+    "contact_email": null,
+    "data_sources": [
+      "duckduckgo_search"
+    ],
+    "enrichment_success": false
+  },
+  {
+    "company_name": "Holiday Villa Gram, Dhaka",
+    "domain": "agoda.com",
+    "source_url": "https://www.agoda.com/holiday-villa-gram/hotel/dhaka-bd.html",
+    "location_searched": "London",
+    "snippet": "Hotel deals on Holiday Villa Gram in Dhaka. Book now - online with your phone. 24/7 customer support. 2026 prices, updated photos.Services and conveniences. Business facilities. Concierge . Currency exchange. Dry cleaning.",
+    "estimated_property_count": null,
+    "geographic_markets": [],
+    "luxury_keywords_found": [
+      "concierge",
+      "villa"
+    ],
+    "luxury_keyword_count": 2,
+    "high_adr_signals": false,
+    "concierge_mentioned": true,
+    "pms_detected": [],
+    "channel_managers": [],
+    "contact_email": null,
+    "data_sources": [
+      "duckduckgo_search"
+    ],
+    "enrichment_success": false
+  },
+  {
+    "company_name": "Luxury Vacation Rentals In London For The Winter Season! -",
+    "domain": "travelsfinders.com",
+    "source_url": "http://travelsfinders.com/luxury-vacation-rentals-london-winter-season.html",
+    "location_searched": "London",
+    "snippet": "Make the most of our fabulous 15 percent discounts by reserving your dream London luxury vacation rentals and enjoy your holiday like never before.",
+    "estimated_property_count": null,
+    "geographic_markets": [
+      "London",
+      "Barcelona",
+      "Cyprus",
+      "Edinburgh"
+    ],
+    "luxury_keywords_found": [
+      "luxury",
+      "premium",
+      "boutique",
+      "villa"
+    ],
+    "luxury_keyword_count": 4,
+    "high_adr_signals": false,
+    "concierge_mentioned": false,
+    "pms_detected": [],
+    "channel_managers": [],
+    "contact_email": null,
+    "data_sources": [
+      "duckduckgo_search",
+      "website_scrape"
+    ],
+    "enrichment_success": true
+  },
+  {
+    "company_name": "Looking for a London Vacation Rental? We Tried the Plum Guide -",
+    "domain": "nytimes.com",
+    "source_url": "https://www.nytimes.com/2017/09/01/travel/london-vacation-rentals.html",
+    "location_searched": "London",
+    "snippet": "... between Brexit and a spike in vacation home rentals ? Nicola Butler, the owner of NoteWorthy , a London travel company specializing in luxury trips ...",
+    "estimated_property_count": null,
+    "geographic_markets": [
+      "London"
+    ],
+    "luxury_keywords_found": [
+      "luxury"
+    ],
+    "luxury_keyword_count": 1,
+    "high_adr_signals": false,
+    "concierge_mentioned": true,
+    "pms_detected": [],
+    "channel_managers": [],
+    "contact_email": null,
+    "data_sources": [
+      "duckduckgo_search"
+    ],
+    "enrichment_success": false
+  },
+  {
+    "company_name": "Perfect For Vacation Rentals In London",
+    "domain": "golondonapartments.com",
+    "source_url": "https://www.golondonapartments.com/our-services/vacation-rentals/",
+    "location_searched": "London",
+    "snippet": "You will be pleased to know that all our London vacation rentals are located close to public transport (underground, DLR, bus and riverbus) making it ...",
+    "estimated_property_count": null,
+    "geographic_markets": [
+      "London"
+    ],
+    "luxury_keywords_found": [
+      "luxury",
+      "concierge",
+      "private",
+      "lavish"
+    ],
+    "luxury_keyword_count": 4,
+    "high_adr_signals": false,
+    "concierge_mentioned": true,
+    "pms_detected": [],
+    "channel_managers": [],
+    "contact_email": null,
+    "data_sources": [
+      "duckduckgo_search",
+      "website_scrape"
+    ],
+    "enrichment_success": true
+  },
+  {
+    "company_name": "Luxury London Holiday rentals (3,755) England Rent short term",
+    "domain": "rentholidayhome.com",
+    "source_url": "https://www.rentholidayhome.com/vacation/pt/rentals/scr/england/srg/london/city/london/k/luxury/",
+    "location_searched": "London",
+    "snippet": "Luxury Rentals London Holiday rentals English - UK vacation rentals of Apartments and Houses - Short term lettings ... home comforts – this London ...",
+    "estimated_property_count": null,
+    "geographic_markets": [
+      "London"
+    ],
+    "luxury_keywords_found": [
+      "luxury",
+      "villa",
+      "estate"
+    ],
+    "luxury_keyword_count": 3,
+    "high_adr_signals": false,
+    "concierge_mentioned": false,
+    "pms_detected": [],
+    "channel_managers": [],
+    "contact_email": null,
+    "data_sources": [
+      "duckduckgo_search",
+      "website_scrape"
+    ],
+    "enrichment_success": true
+  },
+  {
+    "company_name": "London-Based Luxury Vacation Rentals Marketplace The Plum Guide",
+    "domain": "calcalistech.com",
+    "source_url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3759196,00.html",
+    "location_searched": "London",
+    "snippet": "Currently operating in London , Paris, Rome, Milan, Los Angeles, and New York The Plum Guide offers pre-vetted luxury home rentals for vacations in ...",
+    "estimated_property_count": null,
+    "geographic_markets": [
+      "London",
+      "Rome"
+    ],
+    "luxury_keywords_found": [
+      "luxury"
+    ],
+    "luxury_keyword_count": 1,
+    "high_adr_signals": false,
+    "concierge_mentioned": false,
+    "pms_detected": [],
+    "channel_managers": [],
+    "contact_email": null,
+    "data_sources": [
+      "duckduckgo_search"
+    ],
+    "enrichment_success": false
+  },
+  {
+    "company_name": "United Kingdom Luxury Villa Rentals",
+    "domain": "rentalescapes.com",
+    "source_url": "https://www.rentalescapes.com/rentals/luxury-vacation-rentals-europe/united-kingdom",
+    "location_searched": "London",
+    "snippet": "Home to some of the world’s best shopping and dining, Knightsbridge rentals make a great base from which to explore London .",
+    "estimated_property_count": null,
+    "geographic_markets": [
+      "London",
+      "Edinburgh",
+      "Cornwall"
+    ],
+    "luxury_keywords_found": [
+      "luxury",
+      "exclusive",
+      "concierge",
+      "villa",
+      "5-star"
+    ],
+    "luxury_keyword_count": 5,
+    "high_adr_signals": false,
+    "concierge_mentioned": true,
+    "pms_detected": [],
+    "channel_managers": [],
+    "contact_email": null,
+    "data_sources": [
+      "duckduckgo_search",
+      "website_scrape"
+    ],
+    "enrichment_success": true
+  },
+  {
+    "company_name": "Kensington,London Vacation Rental Condo, United Kingdom -",
+    "domain": "internetvillaholidays.com",
+    "source_url": "http://www.internetvillaholidays.com/United-Kingdom/London/Kensington/1418.html",
+    "location_searched": "London",
+    "snippet": "A newly refurbished flat in London . A brand new luxury model bathroom was installed. ... Luxury Self Catering Holiday Home Rentals Platform 2020 ...",
+    "estimated_property_count": null,
+    "geographic_markets": [
+      "London"
+    ],
+    "luxury_keywords_found": [
+      "luxury"
+    ],
+    "luxury_keyword_count": 1,
+    "high_adr_signals": false,
+    "concierge_mentioned": false,
+    "pms_detected": [],
+    "channel_managers": [],
+    "contact_email": null,
+    "data_sources": [
+      "duckduckgo_search"
+    ],
+    "enrichment_success": false
+  }
+]
