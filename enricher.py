@@ -12,8 +12,18 @@ contact details on their sites.
 """
 
 import re
+import os
+import json
 import logging
 from typing import List, Optional, Dict
+
+try:
+    from groq import Groq
+except ImportError:
+    Groq = None
+
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
+groq_client = Groq(api_key=GROQ_API_KEY) if Groq and GROQ_API_KEY else None
 
 
 # ---------------------------------------------------------------------------
@@ -139,6 +149,44 @@ def extract_email(text: str) -> Optional[str]:
 
 
 # ---------------------------------------------------------------------------
+# LLM Signal Extraction (Groq / Llama 3.1)
+# ---------------------------------------------------------------------------
+
+def extract_signals_with_llm(text: str) -> Optional[Dict]:
+    """Uses Groq to extract structured GTM signals from text."""
+    if not groq_client:
+        return None
+
+    prompt = f"""You are a data extraction assistant for yhangry, a private chef marketplace.
+You are analyzing a potential B2B partner's website. Read the website text and extract the following signals as a JSON object:
+
+- is_property_manager (bool): Does this company manage short-term rental properties/villas on behalf of owners?
+- luxury_tier (str or null): Classify their portfolio as "budget", "mid", "luxury", or "ultra". Return null if unclear.
+- estimated_property_count (int or null): The number of properties they manage. Look for numbers near words like "homes", "villas", "properties". Return null if not found.
+- concierge_fit (bool): Do they mention offering concierge, private chef, butler, or bespoke experiential services?
+- pms_software (str or null): Do they mention any property management software (e.g., Guesty, Hostaway)?
+- geographic_markets (list of str): Cities or regions where they operate.
+
+Return ONLY raw, valid JSON. No markdown formatting, no explanations. Do not wrap in ```json ```.
+
+Website text:
+{text[:4000]}
+"""
+    try:
+        completion = groq_client.chat.completions.create(
+            model="llama-3.1-8b-instant",
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0,
+            response_format={"type": "json_object"}
+        )
+        response_text = completion.choices[0].message.content
+        return json.loads(response_text)
+    except Exception as e:
+        logging.warning(f"  Groq LLM extraction failed: {e}")
+        return None
+
+
+# ---------------------------------------------------------------------------
 # Main enrichment function
 # ---------------------------------------------------------------------------
 
@@ -172,7 +220,8 @@ def enrich(company: Dict, scraped_text: str) -> Dict:
     if not enrichment_success:
         logging.debug(f"  Low content scraped for {company.get('domain')} — using snippet only")
 
-    return {
+    # Initialize results with regex fallbacks
+    results = {
         **company,
         "luxury_keywords_found": luxury_keywords,
         "luxury_keyword_count": len(luxury_keywords),
@@ -184,9 +233,38 @@ def enrich(company: Dict, scraped_text: str) -> Dict:
         "contact_email": email,
         "concierge_mentioned": concierge,
         "enrichment_success": enrichment_success,
+        "groq_extraction_success": False,
+        "is_property_manager": None,
+        "luxury_tier": None,
         "data_sources": (
             ["duckduckgo_search", "website_scrape"]
             if enrichment_success
             else ["duckduckgo_search"]
         ),
     }
+
+    # Try Groq LLM extraction
+    if groq_client and enrichment_success:
+        llm_data = extract_signals_with_llm(full_text)
+        if llm_data:
+            results["groq_extraction_success"] = True
+            if "data_sources" in results:
+                results["data_sources"].append("groq_llm")
+
+            # Merge LLM fields
+            results["is_property_manager"] = llm_data.get("is_property_manager")
+            results["luxury_tier"] = llm_data.get("luxury_tier")
+
+            # Override regex with LLM if LLM found something
+            if llm_data.get("estimated_property_count"):
+                results["estimated_property_count"] = llm_data["estimated_property_count"]
+            if llm_data.get("concierge_fit") is not None:
+                results["concierge_mentioned"] = llm_data["concierge_fit"]
+            if llm_data.get("geographic_markets"):
+                # Merge lists
+                merged = set(results["geographic_markets"]) | set(llm_data["geographic_markets"])
+                results["geographic_markets"] = list(merged)
+            if llm_data.get("pms_software"):
+                results["pms_detected"].append(llm_data["pms_software"])
+
+    return results

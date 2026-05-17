@@ -11,6 +11,7 @@ The enrichment signals we extract downstream are identical either way.
 """
 
 import sys
+import os
 import time
 import logging
 from typing import List, Dict
@@ -23,6 +24,8 @@ try:
     from ddgs import DDGS
 except ImportError:
     from duckduckgo_search import DDGS
+
+GOOGLE_PLACES_API_KEY = os.environ.get("GOOGLE_PLACES_API_KEY")
 
 
 HEADERS = {
@@ -73,11 +76,93 @@ def _extract_domain(url: str) -> str:
         return ""
 
 
+def _discover_places_api(location: str, limit: int = 25) -> List[Dict]:
+    """
+    Uses Google Places API (New) Text Search to find property management companies.
+    Returns verified, operational businesses.
+    """
+    results: List[Dict] = []
+    seen_domains: set = set()
+
+    queries = [
+        f"property management company in {location}",
+        f"villa rental agency in {location}",
+        f"concierge service in {location}"
+    ]
+
+    per_query = max((limit // len(queries)) + 2, 5)
+
+    headers = {
+        "Content-Type": "application/json",
+        "X-Goog-Api-Key": GOOGLE_PLACES_API_KEY,
+        "X-Goog-FieldMask": "places.displayName,places.websiteUri,places.businessStatus,places.rating,places.internationalPhoneNumber"
+    }
+
+    for query in queries:
+        if len(results) >= limit:
+            break
+
+        logging.info(f"  [Places API] Searching: \"{query}\"")
+        payload = {
+            "textQuery": query,
+            "maxResultCount": min(per_query, 20)  # max is 20 per page
+        }
+
+        try:
+            resp = requests.post(
+                "https://places.googleapis.com/v1/places:searchText",
+                json=payload,
+                headers=headers,
+                timeout=10
+            )
+            if resp.status_code != 200:
+                logging.warning(f"  Places API error: {resp.text}")
+                continue
+
+            places = resp.json().get("places", [])
+            for place in places:
+                if len(results) >= limit:
+                    break
+
+                # We only want operational businesses with websites
+                if place.get("businessStatus") != "OPERATIONAL":
+                    continue
+
+                url = place.get("websiteUri", "")
+                if not url:
+                    continue
+
+                domain = _extract_domain(url)
+                if not domain or domain in seen_domains or domain in BLOCKLIST_DOMAINS:
+                    continue
+                if any(domain.endswith(ext) for ext in [".gov", ".edu", ".gov.uk"]):
+                    continue
+
+                seen_domains.add(domain)
+                
+                # Build snippet from Places data to feed into the pipeline
+                name = place.get("displayName", {}).get("text", "Unknown")
+                rating = place.get("rating", "N/A")
+                phone = place.get("internationalPhoneNumber", "")
+                
+                snippet = f"Google Places API Record. Rating: {rating}. Phone: {phone}."
+
+                results.append({
+                    "company_name": name,
+                    "domain": domain,
+                    "source_url": url,
+                    "snippet": snippet,
+                })
+        except Exception as e:
+            logging.warning(f"  Places API request failed for '{query}': {e}")
+
+    return results
+
+
 def discover_companies(location: str, limit: int = 25) -> List[Dict]:
     """
-    Runs multiple DuckDuckGo searches for a given location and returns a
-    deduplicated list of candidate partner companies.
-
+    Discovers companies via Google Places API (if key is set) or DuckDuckGo.
+    
     Args:
         location: Target market string, e.g. "London", "Ibiza", "Tuscany"
         limit:    Max number of unique companies to return
@@ -85,6 +170,15 @@ def discover_companies(location: str, limit: int = 25) -> List[Dict]:
     Returns:
         List of dicts with keys: company_name, domain, source_url, snippet
     """
+    if GOOGLE_PLACES_API_KEY:
+        results = _discover_places_api(location, limit)
+        if results:
+            logging.info(f"  Discovered {len(results)} operational businesses via Google Places")
+            return results
+        else:
+            logging.warning("  Google Places returned no results, falling back to DuckDuckGo...")
+
+    # Fallback: DuckDuckGo Search
     results: List[Dict] = []
     seen_domains: set = set()
 

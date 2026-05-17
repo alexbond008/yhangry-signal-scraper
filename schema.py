@@ -33,6 +33,18 @@ class PartnerProfile(BaseModel):
     # --- Contact ---
     contact_email: Optional[str] = None
 
+    # --- Companies House Verification (Layer 3a) ---
+    companies_house_verified: bool = False
+    company_status: Optional[str] = None
+    sic_codes: List[str] = []
+    director_name: Optional[str] = None
+    incorporation_year: Optional[int] = None
+
+    # --- Groq LLM Extraction (Layer 3b) ---
+    is_property_manager: Optional[bool] = None  # LLM confirmed
+    luxury_tier: Optional[str] = None           # e.g., "budget", "mid", "luxury", "ultra"
+    groq_extraction_success: bool = False
+
     # --- Pipeline Meta ---
     data_sources: List[str] = []
     enrichment_success: bool = False      # False if site couldn't be scraped
