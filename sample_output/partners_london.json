@@ -1,151 +1,27 @@
 [
   {
-    "company_name": "Knight Frank Estate Agents",
-    "domain": "knightfrank.co.uk",
-    "source_url": "https://www.knightfrank.co.uk/",
+    "company_name": "Gore Property Management",
+    "domain": "gorepropertymanagement.com",
+    "source_url": "https://www.gorepropertymanagement.com/",
     "location_searched": "London",
-    "snippet": "Discover residential and luxury property across London and the UK with Knight Frank, trusted estate agents since 1896.We specialise in selling and letting a wide range of homes, from modern London apartments to historical country houses, farms, and international pieds-à-terre.",
+    "snippet": "Google Places API Record. Rating: 5. Phone: +44 7378 214260.",
     "estimated_property_count": null,
     "geographic_markets": [
+      "Europe",
+      "Monaco",
+      "Asia",
       "London",
-      "Monaco"
+      "Middle East",
+      "USA"
     ],
     "luxury_keywords_found": [
       "luxury",
       "bespoke",
-      "villa",
-      "estate",
-      "tailored"
-    ],
-    "luxury_keyword_count": 5,
-    "high_adr_signals": false,
-    "concierge_mentioned": false,
-    "pms_detected": [],
-    "channel_managers": [],
-    "contact_email": null,
-    "data_sources": [
-      "duckduckgo_search",
-      "website_scrape"
-    ],
-    "enrichment_success": true
-  },
-  {
-    "company_name": "Airbnb",
-    "domain": "airbnb.co.uk",
-    "source_url": "https://www.airbnb.co.uk/",
-    "location_searched": "London",
-    "snippet": "Bristol Holiday rentals . Eastbourne Cabin rentals . Windermere Cottage rentals . Bangkok Villa rentals . Leicester House rentals .",
-    "estimated_property_count": null,
-    "geographic_markets": [],
-    "luxury_keywords_found": [
-      "villa"
-    ],
-    "luxury_keyword_count": 1,
-    "high_adr_signals": false,
-    "concierge_mentioned": false,
-    "pms_detected": [],
-    "channel_managers": [
-      "Airbnb"
-    ],
-    "contact_email": null,
-    "data_sources": [
-      "duckduckgo_search",
-      "website_scrape"
-    ],
-    "enrichment_success": true
-  },
-  {
-    "company_name": "BARNES, the leading player in international luxury real estate",
-    "domain": "barnes-international.com",
-    "source_url": "https://www.barnes-international.com/en/",
-    "location_searched": "London",
-    "snippet": "BARNES establishes its luxury real estate agencies in the most prestigious locations of these destinations. Our integrated network of agencies is able to offer a selection of high-end properties that meet our clients' criteria.",
-    "estimated_property_count": null,
-    "geographic_markets": [
-      "Ibiza"
-    ],
-    "luxury_keywords_found": [
-      "luxury",
-      "high-end",
-      "concierge",
-      "villa",
-      "estate",
-      "tailored"
-    ],
-    "luxury_keyword_count": 6,
-    "high_adr_signals": false,
-    "concierge_mentioned": true,
-    "pms_detected": [],
-    "channel_managers": [],
-    "contact_email": null,
-    "data_sources": [
-      "duckduckgo_search",
-      "website_scrape"
-    ],
-    "enrichment_success": true
-  },
-  {
-    "company_name": "International Homes for Sale and Apartment Rentals",
-    "domain": "christiesrealestate.com",
-    "source_url": "https://www.christiesrealestate.com/",
-    "location_searched": "London",
-    "snippet": "Christie’s International Real Estate provides tailored solutions and exceptional results for the world’s most discerning luxury real estate clientele.",
-    "estimated_property_count": null,
-    "geographic_markets": [],
-    "luxury_keywords_found": [
-      "luxury",
-      "estate",
-      "tailored"
-    ],
-    "luxury_keyword_count": 3,
-    "high_adr_signals": false,
-    "concierge_mentioned": false,
-    "pms_detected": [],
-    "channel_managers": [],
-    "contact_email": null,
-    "data_sources": [
-      "duckduckgo_search"
-    ],
-    "enrichment_success": false
-  },
-  {
-    "company_name": "Apartments For Rent in United States",
-    "domain": "zillow.com",
-    "source_url": "https://www.zillow.com/us/apartments/",
-    "location_searched": "London",
-    "snippet": "Management tasks. List your property for rent .Tools for rental managers . Check your property's rental value. Screen renters with applications. Create and manage leases. Collect rent . Learn about renting out your property.",
-    "estimated_property_count": null,
-    "geographic_markets": [],
-    "luxury_keywords_found": [],
-    "luxury_keyword_count": 0,
-    "high_adr_signals": false,
-    "concierge_mentioned": false,
-    "pms_detected": [],
-    "channel_managers": [],
-    "contact_email": null,
-    "data_sources": [
-      "duckduckgo_search"
-    ],
-    "enrichment_success": false
-  },
-  {
-    "company_name": "Luxury Hotels",
-    "domain": "rosewoodhotels.com",
-    "source_url": "https://www.rosewoodhotels.com/",
-    "location_searched": "London",
-    "snippet": "Indulge in the world of luxury with Rosewood, a global collection of hotels & resorts designed for discerning travelers seeking unparalleled elegance. Rentals . Residences for Sale. Explore the collection of authentic homes, crafted with design and distinctive Rosewood service.",
-    "estimated_property_count": null,
-    "geographic_markets": [
-      "London"
-    ],
-    "luxury_keywords_found": [
-      "luxury",
-      "curated",
       "exclusive",
-      "villa",
-      "private",
-      "tailored",
-      "signature"
+      "boutique",
+      "concierge",
+      "estate",
+      "tailored"
     ],
     "luxury_keyword_count": 7,
     "high_adr_signals": false,
@@ -153,85 +29,216 @@
     "pms_detected": [],
     "channel_managers": [],
     "contact_email": null,
+    "companies_house_verified": true,
+    "company_status": "active",
+    "sic_codes": [
+      "98000"
+    ],
+    "director_name": "SHERIF, Sibel",
+    "incorporation_year": 2019,
+    "is_property_manager": true,
+    "luxury_tier": "luxury",
+    "groq_extraction_success": true,
     "data_sources": [
       "duckduckgo_search",
-      "website_scrape"
+      "website_scrape",
+      "groq_llm"
     ],
     "enrichment_success": true
   },
   {
-    "company_name": "Short",
-    "domain": "thefreedictionary.com",
-    "source_url": "https://www.thefreedictionary.com/short",
+    "company_name": "J Property Management London",
+    "domain": "jpropertymanagement.co.uk",
+    "source_url": "http://www.jpropertymanagement.co.uk/",
     "location_searched": "London",
-    "snippet": "1. Abruptly; quickly: stop short. 2. In a rude or curt manner. 3. At a point before a given boundary, limit, or goal: a missile that landed short of the target. 4. At a disadvantage: We were caught short by the …",
+    "snippet": "Google Places API Record. Rating: 4.7. Phone: +44 20 8050 9267.",
     "estimated_property_count": null,
-    "geographic_markets": [],
+    "geographic_markets": [
+      "Blackheath (SE)",
+      "Deptford (SE)",
+      "Tooting (SW)",
+      "Chelsea (SW)",
+      "Clapham (SW)",
+      "Woolwich (SE)",
+      "Richmond upon Thames (TW, SW)",
+      "Lambeth (SW, SE)",
+      "Anerley (SE)",
+      "Eltham (SE)",
+      "Nine Elms (SW)",
+      "Putney (SW)",
+      "Bromley (BR, SE)",
+      "Sidcup (BR)",
+      "Beckenham (BR)",
+      "Lewisham (SE)",
+      "Crystal Palace (SE)",
+      "Belgravia (SW)",
+      "Battersea (SW)",
+      "Barnes (SW)",
+      "Catford (SE)",
+      "Merton (SW)",
+      "Peckham (SE)",
+      "Southwark (SE)",
+      "Croydon (CR, SE)",
+      "New Cross",
+      "Kingston upon Thames (KT, SW)",
+      "Bermondsey (SE)",
+      "Sutton (SM)",
+      "Balham (SW)",
+      "Wandsworth (SW)",
+      "Greenwich (SE, DA)",
+      "Kensington (SW)",
+      "Chislehurst (BR)",
+      "London"
+    ],
+    "luxury_keywords_found": [
+      "luxury",
+      "bespoke",
+      "estate"
+    ],
+    "luxury_keyword_count": 3,
+    "high_adr_signals": true,
+    "concierge_mentioned": false,
+    "pms_detected": [],
+    "channel_managers": [
+      "Airbnb"
+    ],
+    "contact_email": "info@jpropertymanagement.co.uk",
+    "companies_house_verified": true,
+    "company_status": "active",
+    "sic_codes": [
+      "68209"
+    ],
+    "director_name": "JACKSON, Alan",
+    "incorporation_year": 2021,
+    "is_property_manager": true,
+    "luxury_tier": null,
+    "groq_extraction_success": true,
+    "data_sources": [
+      "duckduckgo_search",
+      "website_scrape",
+      "groq_llm"
+    ],
+    "enrichment_success": true
+  },
+  {
+    "company_name": "MIH Property Management Ltd",
+    "domain": "mihproperty.co.uk",
+    "source_url": "https://www.mihproperty.co.uk/",
+    "location_searched": "London",
+    "snippet": "Google Places API Record. Rating: 4.5. Phone: +44 20 3637 7968.",
+    "estimated_property_count": null,
+    "geographic_markets": [
+      "City of Westminster",
+      "The Home Counties",
+      "Barnet",
+      "Piccadilly",
+      "Wimbledon",
+      "Kensington and Chelsea",
+      "Mayfair",
+      "Borough",
+      "Richmond",
+      "London",
+      "Putney"
+    ],
     "luxury_keywords_found": [],
     "luxury_keyword_count": 0,
     "high_adr_signals": false,
     "concierge_mentioned": false,
     "pms_detected": [],
     "channel_managers": [],
-    "contact_email": null,
+    "contact_email": "info@mihproperty.co.uk",
+    "companies_house_verified": true,
+    "company_status": "active",
+    "sic_codes": [
+      "68320"
+    ],
+    "director_name": "DAVIS, Carol Fay",
+    "incorporation_year": 2016,
+    "is_property_manager": true,
+    "luxury_tier": null,
+    "groq_extraction_success": true,
     "data_sources": [
       "duckduckgo_search",
-      "website_scrape"
+      "website_scrape",
+      "groq_llm"
     ],
     "enrichment_success": true
   },
   {
-    "company_name": "Short Definition & Meaning",
-    "domain": "yourdictionary.com",
-    "source_url": "https://www.yourdictionary.com/short",
+    "company_name": "Reka Property Management Ltd",
+    "domain": "rekaproperty.co.uk",
+    "source_url": "http://rekaproperty.co.uk/",
     "location_searched": "London",
-    "snippet": "Short definition: Having little length; not long.",
+    "snippet": "Google Places API Record. Rating: 4.8. Phone: +44 20 3633 9356.",
     "estimated_property_count": null,
-    "geographic_markets": [],
+    "geographic_markets": [
+      "Ilford",
+      "Holloway Road",
+      "Cadogan Gardens",
+      "South East London",
+      "North London",
+      "Hackney",
+      "Albermarle Gardens",
+      "Fairfield Road",
+      "Palmers Green",
+      "Barbicam",
+      "Alma Square",
+      "Lewisham",
+      "Stratford",
+      "East London",
+      "Camden",
+      "Ability Place",
+      "Thornwood Close",
+      "Wellesley Road",
+      "Newlyn Road",
+      "Harrow Drive",
+      "Edmonton",
+      "Grovelands Road",
+      "Lymington Avenue",
+      "Kimberley Road",
+      "Highbury",
+      "Wood Green",
+      "London",
+      "Ramsey Road",
+      "Forest Gate"
+    ],
     "luxury_keywords_found": [
-      "exclusive"
+      "bespoke"
     ],
     "luxury_keyword_count": 1,
-    "high_adr_signals": false,
+    "high_adr_signals": true,
     "concierge_mentioned": false,
     "pms_detected": [],
     "channel_managers": [],
-    "contact_email": null,
+    "contact_email": "admin@RekaProperty.co.uk",
+    "companies_house_verified": true,
+    "company_status": "active",
+    "sic_codes": [
+      "68100",
+      "68209"
+    ],
+    "director_name": "FOKUO, Douglas",
+    "incorporation_year": 2005,
+    "is_property_manager": true,
+    "luxury_tier": null,
+    "groq_extraction_success": true,
     "data_sources": [
       "duckduckgo_search",
-      "website_scrape"
+      "website_scrape",
+      "groq_llm"
     ],
     "enrichment_success": true
   },
   {
-    "company_name": "short",
-    "domain": "en.wiktionary.org",
-    "source_url": "https://en.wiktionary.org/wiki/short",
+    "company_name": "Property Management Company London",
+    "domain": "propertymanagementcompany.uk",
+    "source_url": "https://propertymanagementcompany.uk/",
     "location_searched": "London",
-    "snippet": "May 8, 2026 · Short is often used in the positive vertical dimension and used as is shallow in the negative vertical dimension; in the horizontal dimension, narrow is more commonly used.",
+    "snippet": "Google Places API Record. Rating: 5. Phone: +44 7440 587275.",
     "estimated_property_count": null,
-    "geographic_markets": [],
-    "luxury_keywords_found": [],
-    "luxury_keyword_count": 0,
-    "high_adr_signals": false,
-    "concierge_mentioned": false,
-    "pms_detected": [],
-    "channel_managers": [],
-    "contact_email": null,
-    "data_sources": [
-      "duckduckgo_search",
-      "website_scrape"
+    "geographic_markets": [
+      "London"
     ],
-    "enrichment_success": true
-  },
-  {
-    "company_name": "short",
-    "domain": "wordnik.com",
-    "source_url": "https://www.wordnik.com/words/short",
-    "location_searched": "London",
-    "snippet": "If you’ve locked the screen, sliding the keyboard out automatically unlocks, and if the keyboard is out for a short time don’t know what a ’short time’ is yet, the screen will re-lock when the keyboard is stowed.",
-    "estimated_property_count": null,
-    "geographic_markets": [],
     "luxury_keywords_found": [
       "estate"
     ],
@@ -241,20 +248,237 @@
     "pms_detected": [],
     "channel_managers": [],
     "contact_email": null,
+    "companies_house_verified": true,
+    "company_status": "active",
+    "sic_codes": [
+      "98000"
+    ],
+    "director_name": "VENEIK, Deepa",
+    "incorporation_year": 1993,
+    "is_property_manager": false,
+    "luxury_tier": null,
+    "groq_extraction_success": true,
     "data_sources": [
       "duckduckgo_search",
-      "website_scrape"
+      "website_scrape",
+      "groq_llm"
     ],
     "enrichment_success": true
   },
   {
-    "company_name": "Villa Holiday Specialist",
-    "domain": "villaplus.com",
-    "source_url": "https://www.villaplus.com/",
+    "company_name": "Goldman Greg Estate Agency & Housing Management Services",
+    "domain": "goldmangreg.co.uk",
+    "source_url": "http://www.goldmangreg.co.uk/",
     "location_searched": "London",
-    "snippet": "Book with peace of mind. All villas are hand-picked and inspected by our travel experts. Find a space to escape and enjoy your own villa with a private pool & the overseas team are on hand to help.",
+    "snippet": "Google Places API Record. Rating: 4.9. Phone: +44 20 7977 0018.",
+    "estimated_property_count": 300,
+    "geographic_markets": [
+      "London"
+    ],
+    "luxury_keywords_found": [
+      "estate"
+    ],
+    "luxury_keyword_count": 1,
+    "high_adr_signals": false,
+    "concierge_mentioned": false,
+    "pms_detected": [],
+    "channel_managers": [],
+    "contact_email": null,
+    "companies_house_verified": true,
+    "company_status": "active",
+    "sic_codes": [
+      "68100"
+    ],
+    "director_name": "ETHERTON, Peter David",
+    "incorporation_year": 2002,
+    "is_property_manager": false,
+    "luxury_tier": null,
+    "groq_extraction_success": true,
+    "data_sources": [
+      "duckduckgo_search",
+      "website_scrape",
+      "groq_llm"
+    ],
+    "enrichment_success": true
+  },
+  {
+    "company_name": "ION Property Management",
+    "domain": "ionpropertymanagement.co.uk",
+    "source_url": "http://www.ionpropertymanagement.co.uk/",
+    "location_searched": "London",
+    "snippet": "Google Places API Record. Rating: 5. Phone: +44 7879 612290.",
+    "estimated_property_count": null,
+    "geographic_markets": [
+      "Chalk Farm",
+      "West End",
+      "Bloomsbury",
+      "Camden",
+      "London",
+      "Inner City North London"
+    ],
+    "luxury_keywords_found": [
+      "exclusive"
+    ],
+    "luxury_keyword_count": 1,
+    "high_adr_signals": false,
+    "concierge_mentioned": false,
+    "pms_detected": [],
+    "channel_managers": [],
+    "contact_email": null,
+    "companies_house_verified": true,
+    "company_status": "active",
+    "sic_codes": [
+      "82990"
+    ],
+    "director_name": "GEORGIADES, Maria",
+    "incorporation_year": 2007,
+    "is_property_manager": true,
+    "luxury_tier": null,
+    "groq_extraction_success": true,
+    "data_sources": [
+      "duckduckgo_search",
+      "website_scrape",
+      "groq_llm"
+    ],
+    "enrichment_success": true
+  },
+  {
+    "company_name": "Prime Property Management",
+    "domain": "primepm.co.uk",
+    "source_url": "https://primepm.co.uk/",
+    "location_searched": "London",
+    "snippet": "Google Places API Record. Rating: 4.6. Phone: +44 20 3983 3443.",
+    "estimated_property_count": null,
+    "geographic_markets": [
+      "London",
+      "South East",
+      "Hertfordshire"
+    ],
+    "luxury_keywords_found": [
+      "estate"
+    ],
+    "luxury_keyword_count": 1,
+    "high_adr_signals": false,
+    "concierge_mentioned": false,
+    "pms_detected": [],
+    "channel_managers": [],
+    "contact_email": null,
+    "companies_house_verified": true,
+    "company_status": "dissolved",
+    "sic_codes": [
+      "74990",
+      "99999"
+    ],
+    "director_name": "METCALF, James",
+    "incorporation_year": 2011,
+    "is_property_manager": false,
+    "luxury_tier": null,
+    "groq_extraction_success": true,
+    "data_sources": [
+      "duckduckgo_search",
+      "website_scrape",
+      "groq_llm"
+    ],
+    "enrichment_success": true
+  },
+  {
+    "company_name": "Acara Management",
+    "domain": "acara.co.uk",
+    "source_url": "http://acara.co.uk/",
+    "location_searched": "London",
+    "snippet": "Google Places API Record. Rating: 4.7. Phone: +44 20 8226 4200.",
+    "estimated_property_count": null,
+    "geographic_markets": [
+      "surrounding areas",
+      "London",
+      "Richmond-upon-Thames"
+    ],
+    "luxury_keywords_found": [],
+    "luxury_keyword_count": 0,
+    "high_adr_signals": false,
+    "concierge_mentioned": false,
+    "pms_detected": [
+      "Trello, Slack, our own software"
+    ],
+    "channel_managers": [],
+    "contact_email": null,
+    "companies_house_verified": true,
+    "company_status": "active",
+    "sic_codes": [
+      "68320"
+    ],
+    "director_name": "ROWLAND, Paul",
+    "incorporation_year": 2012,
+    "is_property_manager": true,
+    "luxury_tier": null,
+    "groq_extraction_success": true,
+    "data_sources": [
+      "duckduckgo_search",
+      "website_scrape",
+      "groq_llm"
+    ],
+    "enrichment_success": true
+  },
+  {
+    "company_name": "Belvar Property Management Kensington",
+    "domain": "belvarpropertymanagement.com",
+    "source_url": "http://www.belvarpropertymanagement.com/",
+    "location_searched": "London",
+    "snippet": "Google Places API Record. Rating: 4.9. Phone: +44 20 7167 8919.",
     "estimated_property_count": null,
     "geographic_markets": [],
+    "luxury_keywords_found": [],
+    "luxury_keyword_count": 0,
+    "high_adr_signals": false,
+    "concierge_mentioned": false,
+    "pms_detected": [],
+    "channel_managers": [],
+    "contact_email": null,
+    "companies_house_verified": true,
+    "company_status": "active",
+    "sic_codes": [
+      "68100",
+      "68201",
+      "68209",
+      "68320"
+    ],
+    "director_name": "RIAZ, Omer",
+    "incorporation_year": 2026,
+    "is_property_manager": null,
+    "luxury_tier": null,
+    "groq_extraction_success": false,
+    "data_sources": [
+      "duckduckgo_search"
+    ],
+    "enrichment_success": false
+  },
+  {
+    "company_name": "Algarve Villa Rentals",
+    "domain": "algarvevillarentals.biz",
+    "source_url": "http://www.algarvevillarentals.biz/",
+    "location_searched": "London",
+    "snippet": "Google Places API Record. Rating: 4.9. Phone: +44 7941 653311.",
+    "estimated_property_count": null,
+    "geographic_markets": [
+      "Lagos",
+      "Albufeira",
+      "Olhos d'Agua",
+      "Porto de Mós",
+      "Quinta Do Lago",
+      "Lagoa",
+      "Vilamoura",
+      "Portimão",
+      "Almancil",
+      "Galé",
+      "Vale de Parra",
+      "Vale do Lobo",
+      "Alvor",
+      "Tavira",
+      "Guia",
+      "Algarve",
+      "Carvoeiro",
+      "Praia da Oura"
+    ],
     "luxury_keywords_found": [
       "villa",
       "private"
@@ -265,273 +489,664 @@
     "pms_detected": [],
     "channel_managers": [],
     "contact_email": null,
-    "data_sources": [
-      "duckduckgo_search"
+    "companies_house_verified": true,
+    "company_status": "active",
+    "sic_codes": [
+      "82990"
     ],
-    "enrichment_success": false
-  },
-  {
-    "company_name": "Villa Eterna Holiday Rental",
-    "domain": "marbslifestyle.com",
-    "source_url": "https://marbslifestyle.com/rentals/villa/villa-eterna-holiday-rental-beachfront/",
-    "location_searched": "London",
-    "snippet": "Beachside holiday rental villa in Costabella with sea views, 4 bedrooms, 4 bathrooms. Perfect for your Marbella escape. Check availability today.",
-    "estimated_property_count": null,
-    "geographic_markets": [
-      "Marbella"
-    ],
-    "luxury_keywords_found": [
-      "luxury",
-      "concierge",
-      "villa",
-      "private",
-      "handpicked"
-    ],
-    "luxury_keyword_count": 5,
-    "high_adr_signals": false,
-    "concierge_mentioned": true,
-    "pms_detected": [],
-    "channel_managers": [],
-    "contact_email": null,
+    "director_name": "BANCROFT, Howard",
+    "incorporation_year": 2015,
+    "is_property_manager": true,
+    "luxury_tier": "luxury",
+    "groq_extraction_success": true,
     "data_sources": [
       "duckduckgo_search",
-      "website_scrape"
+      "website_scrape",
+      "groq_llm"
     ],
     "enrichment_success": true
   },
   {
-    "company_name": "Holiday Villa Johor Bahru Concierge",
-    "domain": "tripadvisor.in",
-    "source_url": "https://www.tripadvisor.in/Hotel_Feature-g298278-d10062232-zft9656-Holiday_Villa_Johor_Bahru.html",
+    "company_name": "My Private Villas",
+    "domain": "myprivatevillas.com",
+    "source_url": "https://www.myprivatevillas.com/",
     "location_searched": "London",
-    "snippet": "Warmest greetings from Holiday Villa Johor Bahru City Centre! Thank you for taking the time to share your recent experience at our hotel. We are so glad you found our hotel a good place to stay, and that you enjoyed the facilities and food at our restaurant.",
+    "snippet": "Google Places API Record. Rating: 4.9. Phone: +44 20 8076 6401.",
     "estimated_property_count": null,
     "geographic_markets": [],
-    "luxury_keywords_found": [
-      "villa"
-    ],
-    "luxury_keyword_count": 1,
+    "luxury_keywords_found": [],
+    "luxury_keyword_count": 0,
     "high_adr_signals": false,
     "concierge_mentioned": false,
     "pms_detected": [],
     "channel_managers": [],
     "contact_email": null,
+    "companies_house_verified": true,
+    "company_status": "active",
+    "sic_codes": [
+      "79909"
+    ],
+    "director_name": "MACCHIAROLI, Paolo",
+    "incorporation_year": 2011,
+    "is_property_manager": null,
+    "luxury_tier": null,
+    "groq_extraction_success": false,
     "data_sources": [
       "duckduckgo_search"
     ],
     "enrichment_success": false
   },
   {
-    "company_name": "Holiday Villa Gram, Dhaka",
-    "domain": "agoda.com",
-    "source_url": "https://www.agoda.com/holiday-villa-gram/hotel/dhaka-bd.html",
+    "company_name": "Ivy Lettings",
+    "domain": "ivylettings.com",
+    "source_url": "http://www.ivylettings.com/",
     "location_searched": "London",
-    "snippet": "Hotel deals on Holiday Villa Gram in Dhaka. Book now - online with your phone. 24/7 customer support. 2026 prices, updated photos.Services and conveniences. Business facilities. Concierge . Currency exchange. Dry cleaning.",
-    "estimated_property_count": null,
-    "geographic_markets": [],
-    "luxury_keywords_found": [
-      "concierge",
-      "villa"
-    ],
-    "luxury_keyword_count": 2,
-    "high_adr_signals": false,
-    "concierge_mentioned": true,
-    "pms_detected": [],
-    "channel_managers": [],
-    "contact_email": null,
-    "data_sources": [
-      "duckduckgo_search"
-    ],
-    "enrichment_success": false
-  },
-  {
-    "company_name": "Luxury Vacation Rentals In London For The Winter Season! -",
-    "domain": "travelsfinders.com",
-    "source_url": "http://travelsfinders.com/luxury-vacation-rentals-london-winter-season.html",
-    "location_searched": "London",
-    "snippet": "Make the most of our fabulous 15 percent discounts by reserving your dream London luxury vacation rentals and enjoy your holiday like never before.",
+    "snippet": "Google Places API Record. Rating: 4.8. Phone: +44 20 7349 7015.",
     "estimated_property_count": null,
     "geographic_markets": [
+      "Primrose Hill",
+      "Marylebone",
+      "Wandsworth",
+      "London Bridge & Borough",
+      "Little Venice",
+      "Covent Garden",
+      "Nice",
+      "St John's Wood",
+      "Islington",
+      "South Kensington",
+      "Holland Park",
+      "Clapham",
+      "Fulham",
+      "Battersea",
+      "Bayswater",
+      "Pimlico",
+      "Paddington",
+      "Soho",
+      "Kensington",
+      "Hammersmith",
+      "Knightsbridge",
+      "Belgravia",
+      "Mayfair",
+      "Westminster",
+      "Notting Hill",
+      "Chelsea",
       "London",
-      "Barcelona",
-      "Cyprus",
-      "Edinburgh"
+      "Putney"
     ],
     "luxury_keywords_found": [
       "luxury",
-      "premium",
       "boutique",
-      "villa"
-    ],
-    "luxury_keyword_count": 4,
-    "high_adr_signals": false,
-    "concierge_mentioned": false,
-    "pms_detected": [],
-    "channel_managers": [],
-    "contact_email": null,
-    "data_sources": [
-      "duckduckgo_search",
-      "website_scrape"
-    ],
-    "enrichment_success": true
-  },
-  {
-    "company_name": "Looking for a London Vacation Rental? We Tried the Plum Guide -",
-    "domain": "nytimes.com",
-    "source_url": "https://www.nytimes.com/2017/09/01/travel/london-vacation-rentals.html",
-    "location_searched": "London",
-    "snippet": "... between Brexit and a spike in vacation home rentals ? Nicola Butler, the owner of NoteWorthy , a London travel company specializing in luxury trips ...",
-    "estimated_property_count": null,
-    "geographic_markets": [
-      "London"
-    ],
-    "luxury_keywords_found": [
-      "luxury"
-    ],
-    "luxury_keyword_count": 1,
-    "high_adr_signals": false,
-    "concierge_mentioned": true,
-    "pms_detected": [],
-    "channel_managers": [],
-    "contact_email": null,
-    "data_sources": [
-      "duckduckgo_search"
-    ],
-    "enrichment_success": false
-  },
-  {
-    "company_name": "Perfect For Vacation Rentals In London",
-    "domain": "golondonapartments.com",
-    "source_url": "https://www.golondonapartments.com/our-services/vacation-rentals/",
-    "location_searched": "London",
-    "snippet": "You will be pleased to know that all our London vacation rentals are located close to public transport (underground, DLR, bus and riverbus) making it ...",
-    "estimated_property_count": null,
-    "geographic_markets": [
-      "London"
-    ],
-    "luxury_keywords_found": [
-      "luxury",
-      "concierge",
-      "private",
-      "lavish"
-    ],
-    "luxury_keyword_count": 4,
-    "high_adr_signals": false,
-    "concierge_mentioned": true,
-    "pms_detected": [],
-    "channel_managers": [],
-    "contact_email": null,
-    "data_sources": [
-      "duckduckgo_search",
-      "website_scrape"
-    ],
-    "enrichment_success": true
-  },
-  {
-    "company_name": "Luxury London Holiday rentals (3,755) England Rent short term",
-    "domain": "rentholidayhome.com",
-    "source_url": "https://www.rentholidayhome.com/vacation/pt/rentals/scr/england/srg/london/city/london/k/luxury/",
-    "location_searched": "London",
-    "snippet": "Luxury Rentals London Holiday rentals English - UK vacation rentals of Apartments and Houses - Short term lettings ... home comforts – this London ...",
-    "estimated_property_count": null,
-    "geographic_markets": [
-      "London"
-    ],
-    "luxury_keywords_found": [
-      "luxury",
-      "villa",
-      "estate"
+      "private"
     ],
     "luxury_keyword_count": 3,
     "high_adr_signals": false,
     "concierge_mentioned": false,
     "pms_detected": [],
-    "channel_managers": [],
+    "channel_managers": [
+      "Airbnb"
+    ],
     "contact_email": null,
+    "companies_house_verified": true,
+    "company_status": "active",
+    "sic_codes": [
+      "55209"
+    ],
+    "director_name": "VAN DER WESTHUIZEN, Guy John",
+    "incorporation_year": 2009,
+    "is_property_manager": true,
+    "luxury_tier": "luxury",
+    "groq_extraction_success": true,
     "data_sources": [
       "duckduckgo_search",
-      "website_scrape"
+      "website_scrape",
+      "groq_llm"
     ],
     "enrichment_success": true
   },
   {
-    "company_name": "London-Based Luxury Vacation Rentals Marketplace The Plum Guide",
-    "domain": "calcalistech.com",
-    "source_url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3759196,00.html",
+    "company_name": "Cyprus Villa Retreats",
+    "domain": "cyprus-villa-retreats.com",
+    "source_url": "https://cyprus-villa-retreats.com/",
     "location_searched": "London",
-    "snippet": "Currently operating in London , Paris, Rome, Milan, Los Angeles, and New York The Plum Guide offers pre-vetted luxury home rentals for vacations in ...",
+    "snippet": "Google Places API Record. Rating: 4.7. Phone: +44 20 8123 1050.",
     "estimated_property_count": null,
     "geographic_markets": [
-      "London",
-      "Rome"
+      "Cyprus",
+      "Paphos"
     ],
     "luxury_keywords_found": [
-      "luxury"
+      "luxury",
+      "exclusive",
+      "premium",
+      "concierge",
+      "villa",
+      "elite"
     ],
-    "luxury_keyword_count": 1,
+    "luxury_keyword_count": 6,
+    "high_adr_signals": false,
+    "concierge_mentioned": true,
+    "pms_detected": [],
+    "channel_managers": [],
+    "contact_email": null,
+    "companies_house_verified": true,
+    "company_status": "active",
+    "sic_codes": [
+      "55209"
+    ],
+    "director_name": "LAMONBY, Joanna Lynn",
+    "incorporation_year": 2014,
+    "is_property_manager": true,
+    "luxury_tier": "luxury",
+    "groq_extraction_success": true,
+    "data_sources": [
+      "duckduckgo_search",
+      "website_scrape",
+      "groq_llm"
+    ],
+    "enrichment_success": true
+  },
+  {
+    "company_name": "Clickstay",
+    "domain": "clickstay.com",
+    "source_url": "https://www.clickstay.com/",
+    "location_searched": "London",
+    "snippet": "Google Places API Record. Rating: 4.6. Phone: +44 20 3696 2870.",
+    "estimated_property_count": null,
+    "geographic_markets": [
+      "Greece",
+      "Sardinia",
+      "Menorca",
+      "Albufeira",
+      "United Kingdom",
+      "Benalmadena",
+      "Benidorm",
+      "France",
+      "Morocco",
+      "Nerja",
+      "Bali",
+      "Lanzarote",
+      "Majorca",
+      "Barcelona",
+      "Tenerife",
+      "Kissimmee",
+      "Sicily",
+      "Portugal",
+      "Mykonos",
+      "Fuerteventura",
+      "Marbella",
+      "Algarve",
+      "Tuscany",
+      "Paphos",
+      "Cyprus",
+      "Italy",
+      "Carvoeiro",
+      "Lisbon",
+      "Lagos",
+      "Corfu",
+      "USA",
+      "United Arab Emirates",
+      "Spain",
+      "Kefalonia",
+      "Turkey",
+      "Crete",
+      "Vilamoura",
+      "South of France",
+      "Florida",
+      "Ibiza",
+      "Thailand",
+      "Croatia",
+      "Indonesia",
+      "Santorini",
+      "Cornwall",
+      "Malta"
+    ],
+    "luxury_keywords_found": [
+      "luxury",
+      "villa",
+      "private"
+    ],
+    "luxury_keyword_count": 3,
+    "high_adr_signals": true,
+    "concierge_mentioned": false,
+    "pms_detected": [],
+    "channel_managers": [
+      "Airbnb",
+      "Vrbo",
+      "VRBO",
+      "Booking.com"
+    ],
+    "contact_email": null,
+    "companies_house_verified": true,
+    "company_status": "active",
+    "sic_codes": [
+      "79110"
+    ],
+    "director_name": "HUGHES, Thomas James",
+    "incorporation_year": 2013,
+    "is_property_manager": false,
+    "luxury_tier": "luxury",
+    "groq_extraction_success": true,
+    "data_sources": [
+      "duckduckgo_search",
+      "website_scrape",
+      "groq_llm"
+    ],
+    "enrichment_success": true
+  },
+  {
+    "company_name": "Platinum Villas",
+    "domain": "platinum.villas",
+    "source_url": "http://www.platinum.villas/",
+    "location_searched": "London",
+    "snippet": "Google Places API Record. Rating: 5. Phone: +44 333 344 4200.",
+    "estimated_property_count": 10,
+    "geographic_markets": [
+      "Formentera",
+      "Ibiza",
+      "Mykonos",
+      "Marbella",
+      "Mallorca",
+      "London"
+    ],
+    "luxury_keywords_found": [
+      "luxury",
+      "bespoke",
+      "exclusive",
+      "premium",
+      "concierge",
+      "villa",
+      "private",
+      "elite",
+      "opulent",
+      "prestige"
+    ],
+    "luxury_keyword_count": 10,
+    "high_adr_signals": false,
+    "concierge_mentioned": true,
+    "pms_detected": [],
+    "channel_managers": [],
+    "contact_email": null,
+    "companies_house_verified": true,
+    "company_status": "active",
+    "sic_codes": [
+      "55209",
+      "96090"
+    ],
+    "director_name": "WILLIAMS, Timothy Richard",
+    "incorporation_year": 2022,
+    "is_property_manager": true,
+    "luxury_tier": "luxury",
+    "groq_extraction_success": true,
+    "data_sources": [
+      "duckduckgo_search",
+      "website_scrape",
+      "groq_llm"
+    ],
+    "enrichment_success": true
+  },
+  {
+    "company_name": "Oliver's Travels",
+    "domain": "oliverstravels.com",
+    "source_url": "https://www.oliverstravels.com/?utm_source=google&utm_medium=organic&utm_campaign=GMB",
+    "location_searched": "London",
+    "snippet": "Google Places API Record. Rating: 4.6. Phone: +44 333 888 0205.",
+    "estimated_property_count": null,
+    "geographic_markets": [
+      "top holiday destinations",
+      "Dordogne"
+    ],
+    "luxury_keywords_found": [
+      "luxury",
+      "concierge",
+      "villa",
+      "chateau",
+      "private",
+      "handpicked"
+    ],
+    "luxury_keyword_count": 6,
+    "high_adr_signals": false,
+    "concierge_mentioned": true,
+    "pms_detected": [],
+    "channel_managers": [],
+    "contact_email": null,
+    "companies_house_verified": true,
+    "company_status": "active",
+    "sic_codes": [
+      "79909"
+    ],
+    "director_name": "BELL, Oliver",
+    "incorporation_year": 2008,
+    "is_property_manager": false,
+    "luxury_tier": "luxury",
+    "groq_extraction_success": true,
+    "data_sources": [
+      "duckduckgo_search",
+      "website_scrape",
+      "groq_llm"
+    ],
+    "enrichment_success": true
+  },
+  {
+    "company_name": "The Luxury Villa Collection",
+    "domain": "theluxuryvillacollection.com",
+    "source_url": "https://theluxuryvillacollection.com/",
+    "location_searched": "London",
+    "snippet": "Google Places API Record. Rating: 4.6. Phone: +44 20 3903 9094.",
+    "estimated_property_count": null,
+    "geographic_markets": [
+      "Puerto Banus",
+      "Santander",
+      "Ronda",
+      "Benahavis & San Pedro",
+      "Central Spain",
+      "Sotogrande",
+      "Cadiz",
+      "Granada",
+      "Mijas",
+      "Marbella",
+      "La Axarquia",
+      "Estepona",
+      "Golden Mile",
+      "Malaga"
+    ],
+    "luxury_keywords_found": [
+      "luxury",
+      "curated",
+      "exclusive",
+      "high-end",
+      "boutique",
+      "concierge",
+      "villa",
+      "estate",
+      "private"
+    ],
+    "luxury_keyword_count": 9,
+    "high_adr_signals": false,
+    "concierge_mentioned": true,
+    "pms_detected": [],
+    "channel_managers": [],
+    "contact_email": null,
+    "companies_house_verified": true,
+    "company_status": "active",
+    "sic_codes": [
+      "70229"
+    ],
+    "director_name": "STEPHENS, Tara",
+    "incorporation_year": 2025,
+    "is_property_manager": true,
+    "luxury_tier": "luxury",
+    "groq_extraction_success": true,
+    "data_sources": [
+      "duckduckgo_search",
+      "website_scrape",
+      "groq_llm"
+    ],
+    "enrichment_success": true
+  },
+  {
+    "company_name": "Sundance Villas",
+    "domain": "sundancevillas.co.uk",
+    "source_url": "http://www.sundancevillas.co.uk/",
+    "location_searched": "London",
+    "snippet": "Google Places API Record. Rating: 4.8. Phone: +44 20 8440 6219.",
+    "estimated_property_count": null,
+    "geographic_markets": [
+      "Polis Town",
+      "Kathikas",
+      "Latchi",
+      "Akourdaleia",
+      "Statos–Agios Fotios",
+      "Paphos",
+      "Polis",
+      "Cyprus"
+    ],
+    "luxury_keywords_found": [
+      "villa",
+      "private"
+    ],
+    "luxury_keyword_count": 2,
     "high_adr_signals": false,
     "concierge_mentioned": false,
     "pms_detected": [],
     "channel_managers": [],
     "contact_email": null,
+    "companies_house_verified": true,
+    "company_status": "active",
+    "sic_codes": [
+      "96090"
+    ],
+    "director_name": "HARE, Lauren Mae",
+    "incorporation_year": 2004,
+    "is_property_manager": true,
+    "luxury_tier": "luxury",
+    "groq_extraction_success": true,
+    "data_sources": [
+      "duckduckgo_search",
+      "website_scrape",
+      "groq_llm"
+    ],
+    "enrichment_success": true
+  },
+  {
+    "company_name": "Rent Villas Algarve - Quality Holiday Accommodation",
+    "domain": "rentvillasalgarve.co.uk",
+    "source_url": "https://www.rentvillasalgarve.co.uk/?_source=GMBListing&utm_medium=Organic",
+    "location_searched": "London",
+    "snippet": "Google Places API Record. Rating: 4.9. Phone: +351 935 614 473.",
+    "estimated_property_count": null,
+    "geographic_markets": [
+      "Albufeira",
+      "Quinta do Lago",
+      "Vale do Lobo",
+      "Vila Sol",
+      "Algarve",
+      "Dunas Douradas",
+      "Vilamoura"
+    ],
+    "luxury_keywords_found": [
+      "luxury",
+      "exclusive",
+      "premium",
+      "concierge",
+      "villa",
+      "private",
+      "handpicked"
+    ],
+    "luxury_keyword_count": 7,
+    "high_adr_signals": false,
+    "concierge_mentioned": true,
+    "pms_detected": [],
+    "channel_managers": [],
+    "contact_email": "info@rentvillasalgarve.co.uk",
+    "companies_house_verified": true,
+    "company_status": "dissolved",
+    "sic_codes": [
+      "55209"
+    ],
+    "director_name": "EDWARDS, Allan Hugh Keep",
+    "incorporation_year": 2015,
+    "is_property_manager": true,
+    "luxury_tier": "luxury",
+    "groq_extraction_success": true,
+    "data_sources": [
+      "duckduckgo_search",
+      "website_scrape",
+      "groq_llm"
+    ],
+    "enrichment_success": true
+  },
+  {
+    "company_name": "Marrakech Concierge",
+    "domain": "marrakechconcierge.co.uk",
+    "source_url": "http://www.marrakechconcierge.co.uk/",
+    "location_searched": "London",
+    "snippet": "Google Places API Record. Rating: 4.9. Phone: +44 7915 068592.",
+    "estimated_property_count": null,
+    "geographic_markets": [],
+    "luxury_keywords_found": [],
+    "luxury_keyword_count": 0,
+    "high_adr_signals": false,
+    "concierge_mentioned": false,
+    "pms_detected": [],
+    "channel_managers": [],
+    "contact_email": null,
+    "companies_house_verified": true,
+    "company_status": "active",
+    "sic_codes": [
+      "55201",
+      "55209",
+      "56301",
+      "56302"
+    ],
+    "director_name": "QURAISHY, Sirhan Shakil",
+    "incorporation_year": 2018,
+    "is_property_manager": null,
+    "luxury_tier": null,
+    "groq_extraction_success": false,
     "data_sources": [
       "duckduckgo_search"
     ],
     "enrichment_success": false
   },
   {
-    "company_name": "United Kingdom Luxury Villa Rentals",
-    "domain": "rentalescapes.com",
-    "source_url": "https://www.rentalescapes.com/rentals/luxury-vacation-rentals-europe/united-kingdom",
+    "company_name": "The Vault Concierge",
+    "domain": "thevaultconcierge.co.uk",
+    "source_url": "https://thevaultconcierge.co.uk/",
     "location_searched": "London",
-    "snippet": "Home to some of the world’s best shopping and dining, Knightsbridge rentals make a great base from which to explore London .",
+    "snippet": "Google Places API Record. Rating: 5. Phone: +44 7795 831330.",
     "estimated_property_count": null,
     "geographic_markets": [
-      "London",
-      "Edinburgh",
-      "Cornwall"
+      "Dubai",
+      "London"
     ],
     "luxury_keywords_found": [
       "luxury",
+      "bespoke",
       "exclusive",
+      "premium",
       "concierge",
-      "villa",
-      "5-star"
+      "tailored"
+    ],
+    "luxury_keyword_count": 6,
+    "high_adr_signals": false,
+    "concierge_mentioned": true,
+    "pms_detected": [],
+    "channel_managers": [],
+    "contact_email": null,
+    "companies_house_verified": true,
+    "company_status": "active",
+    "sic_codes": [
+      "47910"
+    ],
+    "director_name": "RAFFERTY, Nichola",
+    "incorporation_year": 2016,
+    "is_property_manager": false,
+    "luxury_tier": "luxury",
+    "groq_extraction_success": true,
+    "data_sources": [
+      "duckduckgo_search",
+      "website_scrape",
+      "groq_llm"
+    ],
+    "enrichment_success": true
+  },
+  {
+    "company_name": "Luxury Concierge Service",
+    "domain": "luxuryconciergeservice.co.uk",
+    "source_url": "http://www.luxuryconciergeservice.co.uk/",
+    "location_searched": "London",
+    "snippet": "Google Places API Record. Rating: 5. Phone: +44 7388 600051.",
+    "estimated_property_count": null,
+    "geographic_markets": [],
+    "luxury_keywords_found": [],
+    "luxury_keyword_count": 0,
+    "high_adr_signals": false,
+    "concierge_mentioned": false,
+    "pms_detected": [],
+    "channel_managers": [],
+    "contact_email": null,
+    "companies_house_verified": true,
+    "company_status": "active",
+    "sic_codes": [
+      "96090"
+    ],
+    "director_name": "SAFA, Ghazi",
+    "incorporation_year": 2018,
+    "is_property_manager": null,
+    "luxury_tier": null,
+    "groq_extraction_success": false,
+    "data_sources": [
+      "duckduckgo_search"
+    ],
+    "enrichment_success": false
+  },
+  {
+    "company_name": "Concierge Services Ltd",
+    "domain": "btlr.vip",
+    "source_url": "http://www.btlr.vip/",
+    "location_searched": "London",
+    "snippet": "Google Places API Record. Rating: 2. Phone: +44 20 7497 4148.",
+    "estimated_property_count": null,
+    "geographic_markets": [],
+    "luxury_keywords_found": [],
+    "luxury_keyword_count": 0,
+    "high_adr_signals": false,
+    "concierge_mentioned": false,
+    "pms_detected": [],
+    "channel_managers": [],
+    "contact_email": null,
+    "companies_house_verified": true,
+    "company_status": "active",
+    "sic_codes": [
+      "82990"
+    ],
+    "director_name": "DUNN, Shaun",
+    "incorporation_year": 2024,
+    "is_property_manager": null,
+    "luxury_tier": null,
+    "groq_extraction_success": false,
+    "data_sources": [
+      "duckduckgo_search"
+    ],
+    "enrichment_success": false
+  },
+  {
+    "company_name": "Luxury Concierge Travel",
+    "domain": "luxuryconciergetravel.co.uk",
+    "source_url": "http://luxuryconciergetravel.co.uk/",
+    "location_searched": "London",
+    "snippet": "Google Places API Record. Rating: 5. Phone: +44 20 3887 3880.",
+    "estimated_property_count": null,
+    "geographic_markets": [],
+    "luxury_keywords_found": [
+      "luxury",
+      "bespoke",
+      "concierge",
+      "tailored",
+      "five-star"
     ],
     "luxury_keyword_count": 5,
     "high_adr_signals": false,
     "concierge_mentioned": true,
     "pms_detected": [],
     "channel_managers": [],
-    "contact_email": null,
+    "contact_email": "sales@luxuryconciergetravel.co.uk",
+    "companies_house_verified": true,
+    "company_status": "active",
+    "sic_codes": [
+      "79110",
+      "79909"
+    ],
+    "director_name": "KIRCOS, Rebecca Elizabeth",
+    "incorporation_year": 2023,
+    "is_property_manager": false,
+    "luxury_tier": "luxury",
+    "groq_extraction_success": true,
     "data_sources": [
       "duckduckgo_search",
-      "website_scrape"
+      "website_scrape",
+      "groq_llm"
     ],
     "enrichment_success": true
-  },
-  {
-    "company_name": "Kensington,London Vacation Rental Condo, United Kingdom -",
-    "domain": "internetvillaholidays.com",
-    "source_url": "http://www.internetvillaholidays.com/United-Kingdom/London/Kensington/1418.html",
-    "location_searched": "London",
-    "snippet": "A newly refurbished flat in London . A brand new luxury model bathroom was installed. ... Luxury Self Catering Holiday Home Rentals Platform 2020 ...",
-    "estimated_property_count": null,
-    "geographic_markets": [
-      "London"
-    ],
-    "luxury_keywords_found": [
-      "luxury"
-    ],
-    "luxury_keyword_count": 1,
-    "high_adr_signals": false,
-    "concierge_mentioned": false,
-    "pms_detected": [],
-    "channel_managers": [],
-    "contact_email": null,
-    "data_sources": [
-      "duckduckgo_search"
-    ],
-    "enrichment_success": false
   }
 ]
