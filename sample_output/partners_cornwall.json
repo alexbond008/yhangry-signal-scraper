@@ -1,0 +1,158 @@
+[
+  {
+    "company_name": "Winfreys Property Management",
+    "domain": "winfreys.co.uk",
+    "source_url": "https://www.winfreys.co.uk/",
+    "location_searched": "Cornwall",
+    "snippet": "Google Places API Record. Rating: 5. Phone: +44 7388 247555.",
+    "estimated_property_count": null,
+    "geographic_markets": [
+      "Cornwall"
+    ],
+    "luxury_keywords_found": [
+      "luxury",
+      "concierge",
+      "private",
+      "tailored"
+    ],
+    "luxury_keyword_count": 4,
+    "high_adr_signals": false,
+    "concierge_mentioned": true,
+    "pms_detected": [],
+    "channel_managers": [],
+    "contact_email": "info@winfreys.co.uk",
+    "companies_house_verified": true,
+    "company_status": "active",
+    "sic_codes": [
+      "68320",
+      "98000"
+    ],
+    "director_name": "WINFREY, Georgina Alys",
+    "incorporation_year": 2021,
+    "is_property_manager": true,
+    "luxury_tier": "null",
+    "groq_extraction_success": true,
+    "data_sources": [
+      "duckduckgo_search",
+      "website_scrape",
+      "groq_llm"
+    ],
+    "enrichment_success": true
+  },
+  {
+    "company_name": "Fixer Property & Management Ltd",
+    "domain": "fixermanagementservices.com",
+    "source_url": "https://www.fixermanagementservices.com/",
+    "location_searched": "Cornwall",
+    "snippet": "Google Places API Record. Rating: 5. Phone: +44 1326 376873.",
+    "estimated_property_count": null,
+    "geographic_markets": [
+      "Cornwall"
+    ],
+    "luxury_keywords_found": [
+      "bespoke",
+      "exclusive",
+      "estate",
+      "private"
+    ],
+    "luxury_keyword_count": 4,
+    "high_adr_signals": false,
+    "concierge_mentioned": false,
+    "pms_detected": [],
+    "channel_managers": [],
+    "contact_email": null,
+    "companies_house_verified": true,
+    "company_status": "active",
+    "sic_codes": [
+      "98000"
+    ],
+    "director_name": "GRASSO, Carmelo Piero",
+    "incorporation_year": 2013,
+    "is_property_manager": true,
+    "luxury_tier": null,
+    "groq_extraction_success": true,
+    "data_sources": [
+      "duckduckgo_search",
+      "website_scrape",
+      "groq_llm"
+    ],
+    "enrichment_success": true
+  },
+  {
+    "company_name": "Golden Sands Property Management Ltd",
+    "domain": "goldensandspropertymanagement.co.uk",
+    "source_url": "https://www.goldensandspropertymanagement.co.uk/",
+    "location_searched": "Cornwall",
+    "snippet": "Google Places API Record. Rating: 5. Phone: +44 1736 800737.",
+    "estimated_property_count": null,
+    "geographic_markets": [
+      "Cornwall",
+      "Hayle"
+    ],
+    "luxury_keywords_found": [
+      "estate"
+    ],
+    "luxury_keyword_count": 1,
+    "high_adr_signals": false,
+    "concierge_mentioned": false,
+    "pms_detected": [],
+    "channel_managers": [],
+    "contact_email": null,
+    "companies_house_verified": true,
+    "company_status": "active",
+    "sic_codes": [
+      "68310",
+      "68320"
+    ],
+    "director_name": "CAREY, Timothy Joseph",
+    "incorporation_year": 2023,
+    "is_property_manager": false,
+    "luxury_tier": null,
+    "groq_extraction_success": true,
+    "data_sources": [
+      "duckduckgo_search",
+      "website_scrape",
+      "groq_llm"
+    ],
+    "enrichment_success": true
+  },
+  {
+    "company_name": "DJS Property Management & Construction",
+    "domain": "djs-propertymanagement.com",
+    "source_url": "https://djs-propertymanagement.com/",
+    "location_searched": "Cornwall",
+    "snippet": "Google Places API Record. Rating: 5. Phone: +44 7709 112875.",
+    "estimated_property_count": null,
+    "geographic_markets": [
+      "Cornwall",
+      "Padstow"
+    ],
+    "luxury_keywords_found": [
+      "premium"
+    ],
+    "luxury_keyword_count": 1,
+    "high_adr_signals": false,
+    "concierge_mentioned": false,
+    "pms_detected": [
+      "Track"
+    ],
+    "channel_managers": [],
+    "contact_email": "danlongleywork@gmail.com",
+    "companies_house_verified": true,
+    "company_status": "active",
+    "sic_codes": [
+      "41202"
+    ],
+    "director_name": "SMITH, David John",
+    "incorporation_year": 2024,
+    "is_property_manager": true,
+    "luxury_tier": null,
+    "groq_extraction_success": true,
+    "data_sources": [
+      "duckduckgo_search",
+      "website_scrape",
+      "groq_llm"
+    ],
+    "enrichment_success": true
+  }
+]

@@ -47,7 +47,10 @@ CONCIERGE_KEYWORDS = [
 PMS_PLATFORMS = [
     "Guesty", "Hostaway", "Lodgify", "Smoobu", "Tokeet", "iGMS",
     "OwnerRez", "Beds24", "Rentals United", "Escapia", "LiveRez",
-    "Cloudbeds", "Little Hotelier", "Kigo", "365Villas",
+    "Cloudbeds", "Little Hotelier", "Kigo", "365Villas", "SuperControl",
+    "Hospitable", "Avantio", "Streamline", "Track", "Uplisting", 
+    "Zeevou", "Hostfully", "Mews", "Apaleo", "Breezeway", "Elina",
+    "BookingSync", "CiiRUS", "Octorate", "Eviivo"
 ]
 
 CHANNEL_MANAGERS = [

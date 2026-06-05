@@ -261,11 +261,15 @@ def scrape_website(url: str, char_limit: int = 6000) -> str:
         unique_urls = list(set(extracted_urls))
         urls_text = " ".join(unique_urls)
         
-        full_scraped = f"{text} \n\n[HIDDEN_URLS] {urls_text}"
+        # Collapse whitespace for the text
+        text = " ".join(text.split())
         
-        # Collapse whitespace
-        full_scraped = " ".join(full_scraped.split())
-        return full_scraped[:char_limit]
+        # Ensure the URL block is preserved by truncating the text FIRST
+        max_text_len = max(char_limit - len(urls_text) - 50, 1000)
+        truncated_text = text[:max_text_len]
+        
+        full_scraped = f"{truncated_text} \n\n[HIDDEN_URLS] {urls_text}"
+        return full_scraped
 
     except Exception as e:
         logging.debug(f"  Could not scrape {url}: {e}")

@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Search, Play, Server, CheckCircle2, AlertCircle } from 'lucide-react';
+import { Search, Play, Server, CheckCircle2, AlertCircle, ExternalLink, Mail } from 'lucide-react';
 import './index.css';
 
 interface Partner {
@@ -12,12 +12,20 @@ interface Partner {
   estimated_property_count?: number;
   luxury_keywords_found: string[];
   luxury_keyword_count: number;
+  high_adr_signals: boolean;
+  concierge_mentioned: boolean;
   pms_detected: string[];
+  channel_managers: string[];
+  contact_email?: string;
   companies_house_verified: boolean;
   company_status?: string;
+  sic_codes: string[];
+  director_name?: string;
+  incorporation_year?: number;
   is_property_manager: boolean;
   luxury_tier: string;
-  concierge_mentioned: boolean;
+  groq_extraction_success: boolean;
+  data_sources: string[];
   enrichment_success: boolean;
 }
 
@@ -211,49 +219,90 @@ export default function App() {
                   <div className="partner-header">
                     <div>
                       <h3 className="partner-name">{partner.company_name}</h3>
-                      <a href={partner.source_url} target="_blank" rel="noreferrer" className="partner-domain">
-                        {partner.domain}
+                      <a href={partner.source_url} target="_blank" rel="noreferrer" className="partner-domain" style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
+                        {partner.domain} <ExternalLink size={12} />
                       </a>
                     </div>
                     {partner.companies_house_verified ? (
-                      <span title="Verified on Companies House"><CheckCircle2 color="#10b981" size={20} /></span>
+                      <span className="verification-badge verified" title="Verified on Companies House">
+                        <CheckCircle2 size={14} />
+                        <span className="verification-text">Verified</span>
+                      </span>
                     ) : (
-                      <span title="Unverified"><AlertCircle color="#8b8b93" size={20} /></span>
+                      <span className="verification-badge unverified" title="Unverified/Not UK Registered">
+                        <AlertCircle size={14} />
+                        <span className="verification-text">Unverified</span>
+                      </span>
                     )}
                   </div>
 
                   <p className="company-snippet">"{partner.snippet}"</p>
 
                   <div className="tags-container">
-                    {partner.luxury_tier && partner.luxury_tier !== 'unknown' && (
+                    {partner.luxury_tier && 
+                     partner.luxury_tier.toLowerCase() !== 'null' && 
+                     partner.luxury_tier.toLowerCase() !== 'unknown' && (
                       <span className="tag tag-gold">{partner.luxury_tier.toUpperCase()} TIER</span>
                     )}
                     {partner.is_property_manager && (
                       <span className="tag tag-blue">PROPERTY MANAGER</span>
                     )}
                     {partner.concierge_mentioned && (
-                      <span className="tag tag-green">CONCIERGE</span>
+                      <span className="tag tag-green">CONCIERGE FIT</span>
+                    )}
+                    {partner.high_adr_signals && (
+                      <span className="tag tag-purple">HIGH ADR (£500+)</span>
                     )}
                   </div>
 
-                  <div style={{ marginTop: 'auto' }}>
-                    <div className="stat-row">
-                      <span className="stat-label">Est. Properties</span>
-                      <span className="stat-value">{partner.estimated_property_count || 'N/A'}</span>
-                    </div>
+                  <div style={{ marginTop: 'auto', display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
                     <div className="stat-row">
                       <span className="stat-label">Luxury Keywords</span>
                       <span className="stat-value">{partner.luxury_keyword_count || 0}</span>
                     </div>
-                    <div className="stat-row">
-                      <span className="stat-label">PMS Stack</span>
-                      <span className="stat-value">
-                        {partner.pms_detected && partner.pms_detected.length > 0 
-                          ? partner.pms_detected.join(', ') 
-                          : 'Unknown'}
-                      </span>
-                    </div>
+                    {partner.channel_managers && partner.channel_managers.length > 0 && (
+                      <div className="stat-row">
+                        <span className="stat-label">Booking Channels</span>
+                        <span className="stat-value">{partner.channel_managers.join(', ')}</span>
+                      </div>
+                    )}
+                    {partner.contact_email && (
+                      <div className="stat-row">
+                        <span className="stat-label">Contact Email</span>
+                        <span className="stat-value" style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
+                          <Mail size={12} color="var(--accent-blue)" />
+                          <a href={`mailto:${partner.contact_email}`} className="email-link">
+                            {partner.contact_email}
+                          </a>
+                        </span>
+                      </div>
+                    )}
+                    {partner.geographic_markets && partner.geographic_markets.length > 0 && (
+                      <div className="stat-row">
+                        <span className="stat-label">Active Markets</span>
+                        <span className="stat-value" title={partner.geographic_markets.join(', ')}>
+                          {partner.geographic_markets.slice(0, 3).join(', ')}
+                          {partner.geographic_markets.length > 3 && '...'}
+                        </span>
+                      </div>
+                    )}
                   </div>
+
+                  {partner.companies_house_verified && (
+                    <div className="companies-house-box">
+                      <div className="ch-title">Companies House Records</div>
+                      <div className="ch-row">
+                        <span>Director:</span>
+                        <span className="ch-val" title={partner.director_name}>{partner.director_name || 'Unknown'}</span>
+                      </div>
+                      <div className="ch-row">
+                        <span>Incorporated:</span>
+                        <span className="ch-val">
+                          {partner.incorporation_year || 'N/A'} ({partner.company_status ? partner.company_status.toUpperCase() : 'ACTIVE'})
+                        </span>
+                      </div>
+                    </div>
+                  )}
                 </motion.div>
               ))}
             </div>

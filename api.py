@@ -1,5 +1,6 @@
 import subprocess
 import asyncio
+import sys
 from fastapi import FastAPI, Request
 from fastapi.responses import StreamingResponse
 from fastapi.middleware.cors import CORSMiddleware
@@ -19,7 +20,7 @@ app.add_middleware(
 async def scrape_endpoint(location: str, limit: int = 5):
     async def run_and_stream():
         process = await asyncio.create_subprocess_exec(
-            "python3", "main.py", "--location", location, "--limit", str(limit),
+            sys.executable, "main.py", "--location", location, "--limit", str(limit),
             stdout=asyncio.subprocess.PIPE,
             stderr=asyncio.subprocess.STDOUT
         )
